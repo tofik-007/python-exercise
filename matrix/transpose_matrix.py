@@ -22,4 +22,5 @@ matrix1 = [[0] * r for i in range(c)]
 for i in range(len(matrix)):
     for j in range(len(matrix[0])):
         matrix1[j][i] = matrix[i][j]
-print(matrix1)
+for x in matrix1:
+	print(x)
